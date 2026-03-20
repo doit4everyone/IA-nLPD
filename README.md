@@ -1,105 +1,92 @@
-🇨🇭 Guide de Conformité nLPD — Microsoft 365 Copilot
+# 🇨🇭 nLPD Compliance Kit for Microsoft 365 Copilot
 
-Version 1.0 — Mars 2026
+🇬🇧 English | 🇫🇷 [Version française](README.fr.md)
 
-Guide technique complet pour configurer Microsoft 365 Copilot et Microsoft Purview conformément à la loi suisse sur la protection des données (nLPD — RS 235.1).
+🔐 Secure your Microsoft 365 Copilot environment and achieve Swiss nLPD compliance in hours — not weeks.
 
-⚠️ Ce document est un guide technique et ne constitue pas un avis juridique.
+---
 
-🎯 Objectif
+## 🎯 What is this?
 
-Ce projet fournit une méthode claire et reproductible pour :
+A practical, ready-to-use compliance kit to:
 
-Configurer la conformité nLPD dans Microsoft 365
+- Detect sensitive Swiss data (AVS, IDE, IBAN, etc.)
+- Configure Microsoft Purview (DLP, Audit, Policies)
+- Reduce compliance risks with Microsoft 365 Copilot
+- Prepare for audits from the PFPDT
 
-Mettre en place des règles DLP adaptées à la Suisse
+---
 
-Détecter et bloquer les données sensibles (AVS, IDE, etc.)
+## ⚠️ Why this matters
 
-Activer l’audit et la traçabilité Copilot
+With the new Swiss nLPD law (RS 235.1), organizations must:
 
-Réduire les risques lors d’un contrôle du PFPDT
+- Know where sensitive data is stored  
+- Control access and exposure  
+- Ensure auditability and accountability  
 
-👥 À qui s’adresse ce guide ?
+➡️ Microsoft 365 Copilot introduces new risks if not properly configured
 
-IT Managers
+---
 
-Administrateurs Microsoft 365
+## 🚀 What you get
 
-DPO (Délégués à la protection des données)
+- 📘 Step-by-step implementation guide (PDF)
+- 🔐 Ready-to-use DLP rules for Swiss data
+- 🧩 Regex patterns (AVS, IDE, IBAN, etc.)
+- ⚙️ Microsoft Purview configuration procedures
+- 🚨 Alerting & monitoring templates
+- 📝 Copilot usage policy template
+- 📊 Audit & compliance checklist
 
-Dirigeants de PME suisses
+---
 
-Consultants en cybersécurité et conformité
+## 👥 Who is this for?
 
-Niveau : débutant à intermédiaire.
+- SOC Analysts / Blue Team  
+- Microsoft 365 Administrators  
+- DPO / Compliance Officers  
+- Cybersecurity Consultants  
+- Swiss SMEs 🇨🇭  
 
-📦 Contenu du dépôt
+---
 
-📘 Guide complet en PDF
+## ⏱️ Deployment time
 
-🔐 Checklist de conformité
+👉 Basic setup in less than **1 day**
 
-🧩 Regex pour numéros suisses (AVS, IDE, IBAN, etc.)
+---
 
-⚙️ Procédure de configuration Microsoft Purview
+## 🔎 Compatibility
 
-🚨 Modèles d’alertes et d’emails
+- Microsoft 365 E3 / E5  
+- Microsoft Purview  
+- Microsoft 365 Copilot  
 
-📝 Modèle de politique d’usage Copilot
+---
 
-📊 Procédure d’audit et de documentation
+## 🇨🇭 Built for Switzerland
 
-🛡️ Cadre légal
+Aligned with:
 
-Basé sur :
+- nLPD (RS 235.1)  
+- Accountability (Art. 8)  
+- Processing records (Art. 12)  
+- DPIA (Art. 22)  
+- Breach notification (Art. 24)  
 
-Loi fédérale suisse sur la protection des données (nLPD — RS 235.1)
+👉 Designed for Swiss organizations facing nLPD compliance challenges  
 
-Exigences d’accountability (art. 8)
+---
 
-Registre des traitements (art. 12)
+## ⚖️ Disclaimer
 
-DPIA (art. 22)
+This is a technical guide, not legal advice.
 
-Notification des violations (art. 24)
+---
 
-🚀 Comment utiliser ce projet
+## ⭐ If this helps you
 
-Télécharger ou cloner le repository
-
-Lire le PDF principal
-
-Suivre la checklist de conformité
-
-Adapter les configurations à votre tenant Microsoft 365
-
-Temps estimé de mise en œuvre : 1 journée pour une configuration de base.
-
-🔎 Compatibilité
-
-Compatible avec :
-
-Microsoft 365 E3
-
-Microsoft 365 E5
-
-Microsoft Purview
-
-Microsoft 365 Copilot
-
-⚖️ Responsabilité
-
-Ce projet est fourni à titre informatif.
-
-Chaque organisation doit adapter la configuration à son contexte légal et technique spécifique.
-
-⭐ Si ce projet vous est utile
-
-Merci de :
-
-Donner une étoile au repository
-
-Partager avec votre équipe IT / DPO
-
-Contribuer via issues ou suggestions
+- Star the repository  
+- Share with your security / compliance team  
+- Contribute via issues or suggestions  
